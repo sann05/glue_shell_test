@@ -11,12 +11,13 @@
     "pythonVersion" : "3.9"
   },
   "defaultArguments" : {
+    "--extra-py-files" : "s3://aws-glue-assets-262060556222-eu-central-1/extra/mymodule.zip",
     "--enable-job-insights" : "false",
-    "--job-language" : "python",
-    "--TempDir" : "s3://aws-glue-assets-262060556222-eu-central-1/temporary/",
     "--additional-python-modules" : "pyeloqua==0.5.10,git+https://github.com/sann05/searchads_api",
     "--enable-glue-datacatalog" : "true",
-    "library-set" : "analytics"
+    "library-set" : "analytics",
+    "--job-language" : "python",
+    "--TempDir" : "s3://aws-glue-assets-262060556222-eu-central-1/temporary/"
   },
   "maxRetries" : 0,
   "allocatedCapacity" : 0,
