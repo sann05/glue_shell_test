@@ -1,8 +1,8 @@
 import sys
-from inner_module import inner_file
 import searchads_api
 import pyeloqua
 import local_file
+from inner_module import inner_file
 
 if __name__ == '__main__':
     help('modules')

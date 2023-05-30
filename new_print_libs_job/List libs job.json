@@ -12,11 +12,12 @@
   },
   "defaultArguments" : {
     "--enable-job-insights" : "false",
+    "--additional-python-modules" : "pyeloqua==0.5.10,git+https://github.com/sann05/searchads_api",
+    "--enable-glue-datacatalog" : "true",
+    "library-set" : "analytics",
     "--job-language" : "python",
     "--TempDir" : "s3://aws-glue-assets-262060556222-eu-central-1/temporary/",
-    "--enable-glue-datacatalog" : "true",
-    "--additional-python-modules": "pyeloqua==0.5.10,git+https://github.com/sann05/searchads_api",
-    "library-set" : "analytics"
+    "--extra-files" : "inner_module/inner_file.py"
   },
   "maxRetries" : 0,
   "allocatedCapacity" : 0,
