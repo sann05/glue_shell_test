@@ -11,7 +11,7 @@
     "pythonVersion" : "3.9"
   },
   "defaultArguments" : {
-    "--extra-py-files" : "s3://aws-glue-assets-262060556222-eu-central-1/extra/mymodule.zip,s3://aws-glue-assets-262060556222-eu-central-1/extra/content.zip",
+    "--extra-py-files" : "s3://aws-glue-assets-262060556222-eu-central-1/extra/mymodule.zip",
     "--enable-job-insights" : "false",
     "--additional-python-modules" : "pyeloqua==0.5.10,git+https://github.com/sann05/searchads_api",
     "--enable-glue-datacatalog" : "true",
