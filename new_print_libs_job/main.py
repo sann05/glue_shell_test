@@ -12,8 +12,11 @@ if __name__ == '__main__':
     print(f"os.listdir('.')={os.listdir('.')}")
 
     print(f"sys.path={sys_paths}")
-    for p in sys_paths:
-        print(f"os.listdir('{p}')={os.listdir(p)}")
+    try:
+        for p in sys_paths:
+            print(f"os.listdir('{p}')={os.listdir(p)}")
+    except:
+        pass
     try:
         from mymodule import module
 
