@@ -15,6 +15,7 @@
     "--job-language" : "python",
     "--TempDir" : "s3://aws-glue-assets-262060556222-eu-central-1/temporary/",
     "--enable-glue-datacatalog" : "true",
+    "--additional-python-modules": "pyeloqua==0.5.10,git+https://github.com/sann05/searchads_api",
     "library-set" : "analytics"
   },
   "maxRetries" : 0,
