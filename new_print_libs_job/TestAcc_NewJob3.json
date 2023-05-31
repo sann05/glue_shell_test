@@ -7,13 +7,13 @@
   },
   "command" : {
     "name" : "pythonshell",
-    "scriptLocation" : "s3://aws-glue-assets-262060556222-eu-central-1/aws-glue-scripts/main.py",
+    "scriptLocation" : "s3://aliaksbucket/glue_jobs/aws-glue-scripts/main.py",
     "pythonVersion" : "3.9"
   },
   "defaultArguments" : {
     "--enable-job-insights" : "false",
     "--job-language" : "python",
-    "--TempDir" : "s3://aws-glue-assets-262060556222-eu-central-1/aws-glue-temporary/",
+    "--TempDir" : "s3://aliaksbucket/glue_jobs/aws-glue-temp/",
     "--additional-python-modules" : "pyeloqua==0.5.10,git+https://github.com/sann05/searchads_api",
     "--enable-glue-datacatalog" : "true",
     "library-set" : "analytics"
