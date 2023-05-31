@@ -1,5 +1,5 @@
 {
-  "name" : "List libs job",
+  "name" : "TestAcc_NewJob",
   "description" : "",
   "role" : "arn:aws:iam::262060556222:role/TestGlueRole",
   "executionProperty" : {
