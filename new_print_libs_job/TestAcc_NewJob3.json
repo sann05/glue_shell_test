@@ -7,13 +7,13 @@
   },
   "command" : {
     "name" : "pythonshell",
-    "scriptLocation" : "s3://aliaksbucket/scripts/main.py",
+    "scriptLocation" : "s3://aliaksbucket/aws-glue-scripts/main.py",
     "pythonVersion" : "3.9"
   },
   "defaultArguments" : {
     "--enable-job-insights" : "false",
     "--job-language" : "python",
-    "--TempDir" : "s3://aliaksbucket/temporary/",
+    "--TempDir" : "s3://aliaksbucket/aws-glue-temporary/",
     "--additional-python-modules" : "pyeloqua==0.5.10,git+https://github.com/sann05/searchads_api",
     "--enable-glue-datacatalog" : "true",
     "library-set" : "analytics"
